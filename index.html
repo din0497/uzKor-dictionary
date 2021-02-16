@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tez O`rgan</title>
+    <link rel="stylesheet" href="./src/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script src="./src/index.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <button class="btnLevel">Darajani aniqlash</button>
+        <div id="searchInput">
+          <input  type="text"  placeholder="Search Words" />
+          <button class="modeBtn">Uz/Ko</button>
+          <!-- <button class="btnSearch">Search</button> -->
+        </div>
+      </header>
+      <!-- Bootstrap Contents here -->
+      <div class="dropdown">
+        <button
+          class="btn btn-primary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="width: 15rem"
+        >
+          More
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width: 15rem;">
+          <li><a class="dropdown-item" href="#">Darsliklar</a></li>
+          <li><a class="dropdown-item" href="#">Noyob so`zlar</a></li>
+          <li><a class="dropdown-item" href="#">Ideomalar</a></li>
+          <li><a class="dropdown-item" href="#">Eski so`zlar</a></li>
+          <li><a class="dropdown-item" href="#">Akademik so`zlar</a></li>
+          <li><a class="dropdown-item" href="#">Darajani Aniqlash</a></li>
+          
+        </ul>
+      </div>
+
+      <div id="Contents">
+        <div class="phrases">
+          <h2>Phrases</h2>
+        </div>
+        <div class="words-container">
+          <section>
+            <h1>Kelmoq</h1>
+            <p style="margin-left: 10px">fe`l</p>
+          </section>
+          <ol>
+            <li id="first">koreyski tarjima</li>
+            <li id="second">koreyski tarjimaa</li>
+            <li id="third">koreyski tarjimaa</li>
+            <li id="fourth">koreyski tarjimaa</li>
+          </ol>
+        </div>
+
+        <div class="side-bar">
+          <ul>
+            <h3
+              style="
+                text-align: center !important;
+                border-bottom: black solid 1px !important;
+                padding: 1rem !important; 
+              "
+            >
+              Contents
+            </h3>
+            <li>Darsliklar</li>
+            <li>Noyob so`zlar</li>
+            <li>Ideomalar</li>
+            <li>Eski so`zlar</li>
+            <li>Akademik so`zlar</li>
+          </ul>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+</html>
